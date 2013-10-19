@@ -1,0 +1,103 @@
+/* 
+    Document   : style
+    Created on : Oct 16, 2013, 8:54:26 PM
+    Author     : Karolis
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+}
+
+/* Portrait */
+@media screen and (orientation:portrait) {
+    /* Landscape styles */
+    body{
+        background:url('../images/vertical.jpg')center center fixed; 
+        background-repeat: no-repeat;
+/*        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;*/
+    }
+    input{
+        background: #A4C639;
+        width: 60px;
+        height: 40px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        color: #ffffff;
+        font-size: 20px;
+    }
+    #stop{
+        color: #ff0000;
+    }
+    #reset{
+    }
+    #start{
+        margin-top: 130%;
+        margin-left: 22%;
+    }
+    #chronotime{
+        color: #fff;
+        font-size: 65px;
+        position: absolute;
+        margin-left: 25%;
+        margin-top: 40%;
+    }
+}
+/* Landscape */
+@media screen and (orientation:landscape) {
+    /* Landscape styles */
+    body{
+        background:url('../images/horizontal.jpg')center center fixed; 
+        background-repeat: no-repeat;
+        max-height: 320px;
+/*        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;*/
+    }
+    input{
+        background: #A4C639;
+        width: 60px;
+        height: 40px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        color: #ffffff;
+        font-size: 20px;
+    }
+    #stop{
+        position:absolute;
+        margin-top: 50%;
+        color: #ff0000;
+        margin-left: 10%;
+    }
+    #reset{
+        position:absolute;
+        margin-top: 35%;
+        margin-left: 10%;
+    }
+    #start{
+        position:absolute;
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+    #chronotime{
+        color: #fff;
+        font-size: 65px;
+        position: absolute;
+        margin-left: 50%;
+        margin-top: 40%;
+    }
+}
+
+

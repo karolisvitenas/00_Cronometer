@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chronometer</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <script type="text/javascript" src="js/timer.js"></script>
+    </head>
+    <body background="../images/horizontal.jpg">
+        <span id="chronotime">00:00</span>
+        <form name="chronoForm">
+            <input  id ="start" type="button" name="startstop" value="start" onClick="chronoStart()" />
+            <input id ="reset" type="button" name="reset" value="reset" onClick="chronoReset()" />
+            <input id ="stop" type="button" name="reset" value="stop" onClick="chronoStop()" />
+        </form>
+    </body>
+</html>
